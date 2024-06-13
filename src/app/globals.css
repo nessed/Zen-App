@@ -24,3 +24,11 @@ body {
 .size {
   font-weight: 100;
 }
+
+.timer {
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: 100; /* Adjust font weight if needed */
+  text-align: center; /* Center text horizontally */
+  color: white;
+  /* Additional styles if necessary */
+}
