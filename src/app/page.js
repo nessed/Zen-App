@@ -27,9 +27,9 @@ export default function Home() {
             data-aos="zoom-in"
             className="lg:font-extralight text-[max(7vw,2rem)] xs:font-normal leading-none text-white pb-20"
           >
-            Welcome to your one-stop productivity app
+            welcome to your one-stop productivity app
           </div>
-          <div className="text-white text-5xl">Productivity begins here.</div>
+          <div className="text-white text-5xl">productivity begins here.</div>
         </div>
         <div className="flex w-full justify-between pt-16">
           <Link href="/meditation" passHref>
@@ -37,7 +37,7 @@ export default function Home() {
               <div className="text-2xl">Get Started</div>
             </div>
           </Link>
-          <div className="flex flex-col items-end justify-end w-1/2">
+          <div className="flex flex-col mb-20 items-end justify-end w-1/2">
             <div className="right-10 w-1/2">
               <SimpleSlider />
             </div>
