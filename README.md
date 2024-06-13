@@ -26,8 +26,4 @@ Audio and visual cues as to instruct the user on how and when to inhale and exha
 - **Login and User Accounts:** Securely log in to save your meditation sessions and thought data.
 - **Meditation Log:** Keep a record of your past meditation sessions to see your progress.
 - **Cloud Sync:** Sync your data across different devices using MongoDB.
-
-## How to Get Started
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/zen-productivity-app.git
+ 
