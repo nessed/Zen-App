@@ -13,6 +13,10 @@ Ever get interrupted by random thoughts while meditating? With this app, you can
 ### Thought Pattern Analysis
 The app uses a smart algorithm to look for patterns in your thoughts. Over time, it creates a visual tree that shows how your thoughts are connected. This tree grows the more you use the app, giving you a clear picture of your thought patterns.
 
+### Interactive Experience
+Notice changes in the display of the web page designed especially in order for you to focus on in and out breaths
+Audio and visual cues as to instruct the user on how and when to inhale and exhale
+
 ### Interactive Thought Tree
 - **Visualize Your Mind:** See your thoughts as a growing tree.
 - **Spot Patterns:** Thoughts are grouped into categories like 'stress,' 'music,' and more.
