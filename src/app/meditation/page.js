@@ -14,10 +14,14 @@ export default function Meditation() {
     setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
   return (
-    <div className="flex items-center justify-center h-screen timer">
-      <div className="flex items-center justify-center">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      className="flex items-center justify-center h-screen timer"
+    >
+      <div className="flex flex-col items-center justify-center">
         <CountdownTimer
-          className="font-extralight timer"
+          className="font size-extralight timer"
           duration={15}
           colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
           colorsTime={[7, 5, 2, 0]}
@@ -26,7 +30,7 @@ export default function Meditation() {
         {/* Play/Pause button */}
         <button
           onClick={toggleIsPlaying}
-          className="text-blue-500 focus:outline-none"
+          className="text-blue-500 focus:outline-none mt-10"
         >
           {isPlaying ? (
             <Pause
