@@ -6,9 +6,9 @@ const CountdownTimer = ({ duration, colors, colorsTime, isPlaying }) => (
     <CountdownCircleTimer
       isPlaying={isPlaying} // Pass isPlaying state to control timer
       strokeWidth={1}
-      size={180} // Adjust size as needed
-      duration={duration || 15} // Provide a default value if duration is undefined
-      colors={colors || ["#004777", "#F7B801", "#A30000", "#A30000"]} // Provide default colors array if not passed
+      size={444} // Adjust size as needed
+      duration={15} // Provide a default value if duration is undefined
+      colors={["#004777", "#F7B801", "#A30000", "#A30000"]} // Provide default colors array if not passed
       onComplete={() => {
         console.log("Countdown completed");
       }}

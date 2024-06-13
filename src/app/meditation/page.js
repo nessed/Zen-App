@@ -29,9 +29,15 @@ export default function Meditation() {
           className="text-blue-500 focus:outline-none"
         >
           {isPlaying ? (
-            <Pause className="text-white" size={24} />
+            <Pause
+              className="px-2 py-2 border rounded-full hover:bg-white hover:text-gray-500 text-white"
+              size={30}
+            />
           ) : (
-            <Play className="text-white" size={24} />
+            <Play
+              className="px-2 py-2 border rounded-full hover:bg-white hover:text-gray-500 text-white"
+              size={30}
+            />
           )}
         </button>
       </div>
