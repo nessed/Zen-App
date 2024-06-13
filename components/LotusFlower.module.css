@@ -1,0 +1,18 @@
+/* components/LotusFlower.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lotusFlower {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .lotusFlower svg {
+    width: 100%; /* Ensure the SVG scales with the container */
+    height: auto;
+    stroke-width: 0.5; /* Make the stroke thinner */
+  }
+  
