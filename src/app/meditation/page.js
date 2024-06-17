@@ -1,10 +1,8 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import SimpleSlider from "../components/SimpleSlider";
-import CountdownTimer from "../components/CountdownTimer";
 import { useState } from "react";
 import { Play, Pause } from "lucide-react"; // Import Lucide icons for play and pause
+import CountdownTimer from "../components/CountdownTimer";
 
 export default function Meditation() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -13,12 +11,23 @@ export default function Meditation() {
   const toggleIsPlaying = () => {
     setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
+
   return (
     <div
       data-aos="fade-up"
       data-aos-duration="2000"
-      className="flex items-center justify-center h-screen timer"
+      className="relative flex items-center justify-center h-screen timer"
     >
+      {/* Back Link positioned absolutely */}
+      <div className="absolute top-4 left-4">
+        <Link href="/main-after-auth-page" passHref>
+          <div className="text-2xl text-white">
+            Back
+          </div>
+        </Link>
+      </div>
+      
+      {/* Centered Content */}
       <div className="flex flex-col items-center justify-center">
         <CountdownTimer
           className="font size-extralight timer"

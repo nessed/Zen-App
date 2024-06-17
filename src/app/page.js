@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-full justify-between pt-16">
-          <Link href="/meditation" passHref>
+          <Link href="/main-after-auth-page" passHref>
             <div className="border border-white text-white py-4 px-16 rounded-full text-xl hover:bg-white hover:text-gray-800 transition-colors duration-300 cursor-pointer">
               <div data-aos="zoom-out" className="text-2xl">
                 Get Started
